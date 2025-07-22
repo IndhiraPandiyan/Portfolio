@@ -60,7 +60,7 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <a href="https://github.com/IndhiraPandiyan">
-                <img src={git_icon} alt="" />
+                <img className="git-hub" src={git_icon} alt="" />
               </a>
             </div>
           </div>

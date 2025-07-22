@@ -50,6 +50,7 @@
     align-items: start;
     gap: 70px;
     margin: 20px 70px;
+    margin-top: 80px;
   }
   .services-title h1 {
     padding: 0;
@@ -62,6 +63,48 @@
   .services-format {
     gap: 20px;
     padding: 10px;
+  }
+  .services-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .services {
+    margin: 20px 50px;
+    margin-top: 80px;
+  }
+  .services-format {
+    width: 100%;
+    padding: 15px;
+  }
+  .services-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 540px) {
+  .services {
+    margin: 20px 50px;
+    margin-top: 80px;
+  }
+  .services-format {
+    width: 100%;
+    padding: 10px;
+    margin-left: -5px;
+  }
+  .services-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 440px) {
+  .services {
+    margin: 20px 50px;
+    margin-top: 80px;
+  }
+  .services-format {
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    margin-left: -20px;
   }
   .services-container {
     grid-template-columns: 1fr 1fr;

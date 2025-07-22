@@ -83,3 +83,33 @@
     border-radius: 40px;
   }
 }
+@media screen and (max-width: 640px) {
+  .hero img {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  .hero img {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 440px) {
+  .hero img {
+    margin-left: 60px;
+    justify-content: center;
+  }
+  .hero h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .hero-connect {
+    justify-content: center;
+    margin-left: 60px;
+    font-size: 16px;
+  }
+  .hero-resume {
+    justify-content: center;
+    font-size: 16px;
+  }
+}
