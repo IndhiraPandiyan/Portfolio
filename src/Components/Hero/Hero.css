@@ -95,17 +95,15 @@
 }
 @media screen and (max-width: 440px) {
   .hero img {
-    margin-left: 60px;
     justify-content: center;
   }
   .hero h1 {
     font-size: 45px;
     text-align: center;
-    margin-left: 50px;
+    justify-content: center;
   }
   .hero-connect {
     justify-content: center;
-    margin-left: 60px;
     font-size: 16px;
   }
   .hero-resume {
